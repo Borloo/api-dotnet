@@ -18,7 +18,7 @@ namespace api_dotnet.Controllers
             _configuration = configuration;
         }
 
-        // GET: api/Joueur
+        // GET: api/Equipe
         [HttpGet]
         public ActionResult<IEnumerable<Equipe>> Get()
         {
